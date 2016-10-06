@@ -1,0 +1,48 @@
+@media print {
+    #head {
+        display: none;
+    }
+
+    .footer1 {
+        display: none;
+    }
+
+    .footer2 {
+        display: none;
+    }
+
+    #service1 {
+        display: none;
+    }
+
+    #ok {
+        display: none;
+    }
+
+    #okay_button {
+        display: none;
+    }
+    #return_accept1{
+        display: none;
+    }
+}
+
+.transition-scale {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s linear;
+}
+.transition-scale:hover {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+}
+#a_1{
+    text-decoration: none;
+    color:#101010;
+}
